@@ -9,7 +9,7 @@ public class HolaMundoVarArgs {
              }
                 else System.out.println("Hola mundo sin args");
 
-                System.out.println(factorial(0));
+                System.out.println(factorial(5));
         }  
         
         static int factorial(int n) {     

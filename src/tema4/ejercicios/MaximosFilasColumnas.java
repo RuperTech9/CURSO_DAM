@@ -1,8 +1,28 @@
 package tema4.ejercicios;
 
-import tema4.bordes.Bordes;
 
-public class EjerciciosFinales {
+public class MaximosFilasColumnas {
+    public static void main(String[] args) {
+        int[][] matriz = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        mostrarMatrizTranspuesta(matriz);
+        
+        int[] maximosCol = maximosColumnas(matriz);
+        System.out.println("\nMáximos por fila:");
+        for (int max : maximosCol) {
+            System.out.print(max + " ");
+        }
+
+        int[] maximosFil = maximosFilas(matriz);
+        System.out.println("\n\nMáximos por columna:");
+        for (int max : maximosFil) {
+            System.out.print(max + " ");
+        }
+    }
 
     public static void mostrarMatrizTranspuesta(int[][] matriz) {
 
@@ -20,7 +40,12 @@ public class EjerciciosFinales {
                 transpuesta[i][j] = matriz[j][i];
             }
         }
-        Bordes.mostrarMatrizConBordes(transpuesta);
+        for (int[] fila : transpuesta) {
+            for (int elemento : fila) {
+                System.out.print(elemento + " ");
+            }
+            System.out.println();
+        }
     }
 
     public static int[] maximosColumnas(int[][] matriz) {

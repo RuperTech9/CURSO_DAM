@@ -10,6 +10,7 @@ public class ClienteExisteException extends Exception {
         this.cliente = cliente;
     }
 
+    @Override
     public String toString() {
         return "El cliente de nombre " + this.cliente.getNombre() + " ya existe";
     }

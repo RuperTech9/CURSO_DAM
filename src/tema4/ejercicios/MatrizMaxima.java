@@ -1,7 +1,7 @@
 package tema4.ejercicios;
 import java.util.Arrays;
 
-public class EjercicioMatrices {
+public class MatrizMaxima {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class EjercicioMatrices {
 
         int[][] c = matrizMaxima(a, b);
         if(c != null) {
-
+            System.out.println("Resultado de la matriz máxima:");
             for (int[] fila : c) {
                 System.out.println(Arrays.toString(fila));            
             }

@@ -5,7 +5,7 @@ import java.time.Duration;
 import java.time.Instant;
 import tema4.generadores.*;
 
-public class TestsOrdenacion {
+public class TiempoOrdenacion {
 
     public static void main(String[] args) {
 

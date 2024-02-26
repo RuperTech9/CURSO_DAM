@@ -3,7 +3,7 @@ package tema4.ejemplos;
 
 import tema4.bordes.Bordes;
 import tema4.generadores.GeneredorMatrices;
-import tema4.ejercicios.EjerciciosFinales;
+import tema4.ejercicios.MaximosFilasColumnas;
 
 public class Matrices {
 
@@ -27,8 +27,8 @@ public class Matrices {
 
         Bordes.mostrarMatricesConBordes(5, matriz, matrizA, matrizB);
 
-        EjerciciosFinales.mostrarMatrizTranspuesta(matrizA);
-        EjerciciosFinales.mostrarMatrizTranspuesta(matrizB);
+        MaximosFilasColumnas.mostrarMatrizTranspuesta(matrizA);
+        MaximosFilasColumnas.mostrarMatrizTranspuesta(matrizB);
     }
 
 }

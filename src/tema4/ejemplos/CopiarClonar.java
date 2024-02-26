@@ -27,14 +27,14 @@ public class CopiarClonar {
         copiaReferencia2[0] = -1;
 
         // salida
-        System.out.println(Arrays.toString(primos)); // [1, 0, 3, 5, 7, 11, 13, 17, 19, 23]
+        System.out.println(Arrays.toString(primos)); // [-1, 0, 3, 5, 7, 11, 13, 17, 19, 23]
         System.out.println(Arrays.toString(copiaClonado)); // [0, 2, 3, 5, 7, 11, 13, 17, 19, 23]
-        System.out.println(Arrays.toString(copiaReferencia));// [1, 0, 3, 5, 7, 11, 13, 17, 19, 23]
-        System.out.println(Arrays.toString(copiaReferencia2));// [1, 0, 3, 5, 7, 11, 13, 17, 19, 23]
+        System.out.println(Arrays.toString(copiaReferencia));// [-1, 0, 3, 5, 7, 11, 13, 17, 19, 23]
+        System.out.println(Arrays.toString(copiaReferencia2));// [-1, 0, 3, 5, 7, 11, 13, 17, 19, 23]
 
         //espacios de mem
         System.out.println(primos);
-        System.out.println(copiaClonado);
+        System.out.println(copiaClonado); // el original que he clonado
         System.out.println(copiaReferencia);
         System.out.println(copiaReferencia2);
 

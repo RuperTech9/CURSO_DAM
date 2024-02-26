@@ -1,7 +1,7 @@
 package tema4.ejercicios;
 import java.util.Arrays;
 
-public class EjercicioMatricesIrregulares {
+public class MatrizMaximaIrregulares {
 
     public static void main(String[] args) {
 
@@ -14,6 +14,7 @@ public class EjercicioMatricesIrregulares {
     static void mostrarMatrizMaxima(int[][] a, int[][] b) {
 
         int[][] c = matrizMaxima(a, b);
+        System.out.println("Resultado de la matriz máxima:");
         for (int[] fila : c) {
             System.out.println(Arrays.toString(fila));
         }
