@@ -9,7 +9,7 @@ public class Excepciones2 {
         int num1, num2;
         try {
             num1 = entrada.nextInt();
-            num2 = Integer.parseInt("1");
+            num2 = Integer.parseInt("10");
             System.out.println(num2 / num1);
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());

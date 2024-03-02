@@ -24,7 +24,7 @@ public class Excepciones6 {
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("ERROR: " + e.getMessage());
             } catch (InputMismatchException e) {
-                System.out.println("ERROR: el número introducido no es válido " + e.getMessage());
+                System.out.println("ERROR: el número introducido no es válido ");
                 entrada.next();
             }
         } while (!salir);
