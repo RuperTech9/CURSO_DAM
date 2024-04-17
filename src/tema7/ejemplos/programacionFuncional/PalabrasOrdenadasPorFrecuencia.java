@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class EjemploStreams9 {
+public class PalabrasOrdenadasPorFrecuencia {
 
     public static void main(String[] args) {
 

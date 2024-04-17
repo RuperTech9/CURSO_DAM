@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class EjemploStreams4 {
+public class PalabrasUnicasYPalabrasOrdenadas {
 
     public static void main(String[] args) {
 

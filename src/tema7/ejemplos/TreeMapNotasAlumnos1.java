@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap; 
 
-public class EjemploTreeMapNotas {
+public class TreeMapNotasAlumnos1 {
 
     public static void main(String[] args) {
 

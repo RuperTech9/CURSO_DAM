@@ -2,7 +2,7 @@ package tema7.ejemplos.programacionFuncional;
 import java.util.Arrays;
 import java.util.List;
 
-public class EjemploStreams2 {
+public class SumaCuadradosPares {
 
     public static void main(String[] args) {
 

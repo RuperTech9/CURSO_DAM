@@ -2,7 +2,7 @@ package tema7.ejemplos;
 import java.util.HashMap;
 import java.util.Map;
 
-public class EjemploHashMap {
+public class HashMapNotasAlumnos {
 
     public static void main(String[] args) {
 

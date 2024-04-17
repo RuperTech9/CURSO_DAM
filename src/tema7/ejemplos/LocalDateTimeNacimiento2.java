@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Period;
 
-public class EjemplosTime2 {
+public class LocalDateTimeNacimiento2 {
 
     public static void main(String[] args) {
 

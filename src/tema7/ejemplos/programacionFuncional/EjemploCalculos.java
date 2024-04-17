@@ -1,7 +1,7 @@
 package tema7.ejemplos.programacionFuncional;
 import java.time.LocalTime;
 
-public class EjemploLambdas {
+public class EjemploCalculos {
 
     public static void main(String[] args) {
 

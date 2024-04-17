@@ -2,7 +2,7 @@ package tema7.ejemplos;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Ejemplo1Iterador {
+public class IteradorEliminar {
     
     public static void main(String[] args) {
         

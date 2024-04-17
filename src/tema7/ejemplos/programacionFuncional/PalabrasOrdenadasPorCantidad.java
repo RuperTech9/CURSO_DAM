@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class EjemploStreams7 {
+public class PalabrasOrdenadasPorCantidad {
 
     public static void main(String[] args) {
 

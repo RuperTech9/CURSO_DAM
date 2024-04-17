@@ -2,7 +2,7 @@ package tema7.ejemplos;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class EjemplosTreeMap {
+public class TreeMapNotasAlumnos {
 
     public static void main(String[] args) {
 

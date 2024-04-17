@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-public class EjemploHashSet {
+public class HashSetEjemplos {
 
     public static void main(String[] args) {
 
